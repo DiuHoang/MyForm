@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-image: url("image/background.jpg");
+			background-size: cover;
+			color: white;
+		}
+		.container{
+			height: auto;
+			width: 300px;
+			margin-top: 150px;
+			margin-bottom: auto;
+			background: black;
+			position: relative;
+			padding: 10px;
+			margin-left: 40%;
+			opacity: 0.8;
+		}
+		h1{
+			text-align: center;
+			margin-bottom: 20px;
+			font-size: 60px;
+		}
+		label{
+			font-size: 20px;
+			margin-left: 7%;
+		}
+		input{
+			border: 0;
+			outline: 0;
+			background: transparent;
+			border-bottom: 1px solid white;
+			height: 30px;
+			margin-left: 20px;
+			width: 250px;
+			margin-bottom: 20px;
+			color: white;
+		}
+		button{
+			width: 200px;
+			margin-left: 50px;
+			background-color: aqua;
+			height: 35px;
+			border-radius: 20px;
+			margin-bottom: 20px;
+			font-weight: bold;
+		}
+		a:link {
+		    text-decoration: none;
+		    color: white;
+		    margin-left: 50px;
+		    font-size: 20px;
+		}
+		a:hover {
+		    color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<form action="login.php" method="post" class="container">
+		<h1>Login</h1>
+			<label>UserName</label>
+		<div>
+			<input type="text" name="username" placeholder="UserName">
+		</div>
+			<label>Password</label>
+		<div>
+			<input type="password" name="pass" placeholder="Password">
+		</div>
+		<div>
+			<button type="submit">LOGIN</button>
+		</div>
+		<div>
+			<a href="#" style="margin-left: 70px; margin-bottom: 10px;">Forgot your password</a>
+		</div>
+		<div>
+			<a href="http://localhost/MyForm/signUp.html">Don't have account? Sign up</a>
+		</div>
+	</form>
+</body>
+</html>
