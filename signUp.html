@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-image: url("image/background.jpg");
+			background-size: cover;
+			color: white;
+		}
+		.container{
+			height: auto;
+			width: 300px;
+			margin-top: 100px;
+			margin-bottom: auto;
+			background: black;
+			position: relative;
+			padding: 10px;
+			margin-left: 40%;
+			opacity: 0.8;
+		}
+		h1{
+			text-align: center;
+			margin-bottom: 20px;
+			font-size: 60px;
+		}
+		label{
+			font-size: 20px;
+			margin-left: 7%;
+		}
+		input{
+			border: 0;
+			outline: 0;
+			background: transparent;
+			border-bottom: 1px solid white;
+			height: 30px;
+			margin-left: 20px;
+			width: 250px;
+			margin-bottom: 20px;
+			color: white;
+		}
+		button{
+			width: 200px;
+			margin-left: 50px;
+			background-color: aqua;
+			height: 35px;
+			border-radius: 20px;
+			margin-bottom: 20px;
+			font-weight: bold;
+		}
+		a:link {
+		    text-decoration: none;
+		    color: white;
+		    margin-left: 50px;
+		    font-size: 20px;
+		}
+		a:hover {
+		    color: yellow;
+		}
+		select{
+			width: 100px;
+			height: 30px;
+			background-color: gray;
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+	<form class="container">
+		<h1>Register</h1>
+			<label>Name</label>
+		<div>
+			<input type="text" name="username" placeholder="UserName">
+		</div>
+			<label>Email</label>
+		<div>
+			<input type="text" name="pass" placeholder="Email">
+		</div>
+		</div>
+			<label>Phone Number</label>
+		<div>
+			<input type="text" name="pass" placeholder="Phone Number">
+		</div>
+		</div>
+			<label>Address</label>
+			<label style="margin-left: 60px;">Gender</label>
+		<div>
+		<div>
+		  	<select>
+		  		<option value="Quang Binh">Quang Binh</option>
+				<option value="Quang Tri">Quang Tri</option>
+				<option value="Da Nang">Da Nang</option>
+				<option value="Quang Nam">Quang Nam</option>
+				<option value="Quang Ngai">Quang Ngai</option>
+				<option value="Binh Dinh">Binh Dinh</option>
+ 			</select>
+ 			<select>
+		  		<option value="Female">Female</option>
+				<option value="Male">Male</option>
+ 			</select>
+		</div>
+		</div>
+			<label>Password</label>
+		<div>
+			<input type="text" name="pass" placeholder="Password">
+		</div>
+		</div>
+			<label>Confirm Password</label>
+		<div>
+			<input type="text" name="pass" placeholder="Confirm Password">
+		</div>
+		<div>
+			<button type="submit">REGISTER</button>
+		</div>
+	</form>
+</body>
+</html>
